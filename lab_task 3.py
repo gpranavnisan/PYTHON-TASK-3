@@ -1,5 +1,5 @@
 #1.print numbers from 1-10 using forloop:
-'''for i in range(1,11):
+for i in range(1,11):
     print(i)
 
 #2.multiplication table of a number:
@@ -18,7 +18,6 @@ for i in range(1,a+1):
     b*=i
 print("":b)
 
-
 #5.to check whether the number is palindrome or not using while loop:
 a=int(input("enter a number:",))
 b=0
@@ -33,12 +32,11 @@ if a==b:
 else:
     print("the number is not a palindrome")
 
-
-#6.to print
+'''#6.to print
     *
     **
     ***
-    ****:
+    ****:'''
 for i in range(1,5):
     for j in range(i):
         print("*",end="")
@@ -59,7 +57,7 @@ i = 1
 while i<=20:
     print(i)
     i+=1
-'''
+
 #10.to print numbers from 10 to 1 using while loop:
 i = 10
 while i>=1:
